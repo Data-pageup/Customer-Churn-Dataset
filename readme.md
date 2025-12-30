@@ -93,7 +93,8 @@ weighted avg       0.78      0.78      0.78      6000
 
 ## ROC Curve Analysis
 
-![ROC Curve - Churn Prediction Models](roc_curve.png)
+![ROC Curve - Churn Prediction Models](<img width="584" height="469" alt="image" src="https://github.com/user-attachments/assets/cc86de1a-3b3e-4ef2-84c5-6c9e2faaee1b" />
+)
 
 ### Model Performance by AUC-ROC
 
