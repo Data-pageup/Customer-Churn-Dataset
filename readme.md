@@ -93,7 +93,8 @@ weighted avg       0.78      0.78      0.78      6000
 
 ## ROC Curve Analysis
 
-![ROC Curve - Churn Prediction Models](<img width="584" height="469" alt="image" src="https://github.com/user-attachments/assets/cc86de1a-3b3e-4ef2-84c5-6c9e2faaee1b" />
+![ROC Curve - Churn Prediction Models]
+(<img width="588" height="464" alt="image" src="https://github.com/user-attachments/assets/b5ae3fd9-5079-473e-a98d-367f75526e29" />
 )
 
 ### Model Performance by AUC-ROC
@@ -251,30 +252,6 @@ This demonstrates that even modest improvements in recall translate to significa
 **Cost Matrix Analysis**
 - Assign actual dollar values to true positives, false positives, false negatives
 - Optimize for maximum business value, not just statistical metrics
-
----
-
-## Recommended Action Plan
-
-### Phase 1: Quick Wins (1-2 days)
-1. Implement threshold tuning on existing Random Forest model
-2. Retrain Random Forest with `class_weight='balanced'`
-3. Compare performance using F2 score (weights recall 2x more than precision)
-4. Document results in updated classification reports
-
-### Phase 2: Model Enhancement (3-5 days)
-1. Train XGBoost and LightGBM with hyperparameter tuning
-2. Implement SMOTE for synthetic oversampling
-3. Create ensemble predictions (voting or stacking)
-4. Conduct feature importance analysis to identify key churn drivers
-5. Perform cross-validation to ensure model stability
-
-### Phase 3: Production Optimization (ongoing)
-1. A/B test model predictions in retention campaigns
-2. Monitor model drift with monthly performance tracking
-3. Collect feedback on false positives to refine features
-4. Iterate on decision threshold based on business feedback
-5. Update model quarterly with new data
 
 ---
 
